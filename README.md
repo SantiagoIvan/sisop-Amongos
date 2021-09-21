@@ -16,9 +16,9 @@
 
 
 ### Modulos desarrollados
-- Discordiador: Simulador de la Planificación. Encargado de la planificación de los tripulantes
-- Mi-RAM: Simulador de la Gestión de Memoria. Encargado de almacenar todas las tareas de los tripulantes mientras estén en ejecución
-- I-Mongo-Store: Simulador de un File System. Encargado de persistir cada movimiento realizado por los tripulantes, así como también todos los recursos generados por ellos.
+- **Discordiador**: Simulador de la Planificación. Encargado de la planificación de los tripulantes
+- **Mi-RAM**: Simulador de la Gestión de Memoria. Encargado de almacenar todas las tareas de los tripulantes mientras estén en ejecución
+- **I-Mongo-Store**: Simulador de un File System. Encargado de persistir cada movimiento realizado por los tripulantes, así como también todos los recursos generados por ellos.
 
 
 ## COMANDOS DE LA CONSOLA DE DISCORDIADOR
