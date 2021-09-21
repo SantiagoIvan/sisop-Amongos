@@ -1,10 +1,27 @@
-# tp-2021-1c-S-quito-de-Oviedo
+# Trabajo Práctico 2021 - 1C - Sistemas Operativos
 
 <p align="center"><img src="oviedo.jpg" width="200px"/></p>
 
 
 
-## COMANDOS DE LA CONSOLA
+## Integrantes
+
+| Integrante | Github | Legajo | Correo | Curso
+|--|--|--|--|--
+| **Gianpier Yupanqui** | [@gianpieryup](https://www.github.com/gianpieryup) | 159.207-5 | gianpieryup@gmail.com | K3054
+| **Damian Teplitz** | [@dteplitz](https://www.github.com/dteplitz) | 158.780-8 | dteplitz@frba.utn.edu.ar | K3154
+| **Santiago Feijoo** | [@SantiagoIvan](https://github.com/SantiagoIvan) | 152.288-7 | santiago.feijoo96@gmail.com | K3153
+| **Cristian Cali** | [@julchat](https://www.github.com/julchat) | 167.318-0 | crcali@est.frba.utn.edu.ar | K3052
+| **Juan Manuel Castagno** | [@jcastagno99](https://www.github.com/jcastagno99) | 167.863-2 | Juan-Castagno@Hotmail.com | K3054
+
+
+### Modulos desarrollados
+- Discordiador: Simulador de la Planificación. Encargado de la planificación de los tripulantes
+- Mi-RAM: Simulador de la Gestión de Memoria. Encargado de almacenar todas las tareas de los tripulantes mientras estén en ejecución
+- I-Mongo-Store: Simulador de un File System. Encargado de persistir cada movimiento realizado por los tripulantes, así como también todos los recursos generados por ellos.
+
+
+## COMANDOS DE LA CONSOLA DE DISCORDIADOR
 
 ````powershell
 INICIAR_PATOTA 2 plantas.txt 1|1 3|4
@@ -25,25 +42,6 @@ Tenemos los siguientes comandos
 -  `./exec`    :    Inicia i-mongo
 
 
-
-
-#### Ver logs filtrados
-Ubicarse en el `/cfg` antes de ejecutar el comando
-````powershell
-cat discordiador.log | grep "Tripulante 1"
-````
-
-
-
-## Integrantes
-
-| Integrante | Github | Legajo | Correo | Curso
-|--|--|--|--|--
-| **Gianpier Yupanqui** | [@gianpieryup](https://www.github.com/gianpieryup) | 159.207-5 | gianpieryup@gmail.com | K3054
-| **Damian Teplitz** | [@dteplitz](https://www.github.com/dteplitz) | 158.780-8 | dteplitz@frba.utn.edu.ar | K3154
-| **Santiago Feijoo** | [@SantiagoIvan](https://github.com/SantiagoIvan) | 152.288-7 | santiago.feijoo96@gmail.com | K3153
-| **Cristian Cali** | [@julchat](https://www.github.com/julchat) | 167.318-0 | crcali@est.frba.utn.edu.ar | K3052
-| **Juan Manuel Castagno** | [@jcastagno99](https://www.github.com/jcastagno99) | 167.863-2 | Juan-Castagno@Hotmail.com | K3054
 
 
 ## Manejo de señales
@@ -68,8 +66,3 @@ kill -SIGUSR1 <pid> o kill -SIGUSR2
 
 SIGUSR1 va a generar la compactacion
 SIGUSR2 va a loggear toda la informacion en memoria actualmente. 
-
-Esta no fue pedida pero la desarrollamos pensando en su utilidad para saber que esta pasando en cierto momento en memoria. 
-  
-TP de compañero 2019  
-https://github.com/Renkon/lissandra2019utnso  
